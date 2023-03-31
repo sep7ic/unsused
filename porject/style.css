@@ -1,0 +1,68 @@
+
+@import url('https://fonts.cdnfonts.com/css/kg-summer-storm-rough');
+@import url('https://fonts.cdnfonts.com/css/alcefun');
+ 
+
+body {background: linear-gradient(180deg, var(--light) 0%, var(--dark) 100%); background-repeat: no-repeat; background-attachment: fixed;}
+
+main {background-color: var(--bg); width: 80%; margin: auto; padding: 10px;}
+
+header{
+    background-color: var(--dark);
+    color: white;
+    text-align: center;
+    clip-path: polygon(100% 0%, 98% 50%, 100% 100%, 0% 100%, 19px 50%, 0% 0%);
+  }
+
+     
+  * {
+    box-sizing: border-box;
+}
+h1 {text-align: center; font-family: 'KG Summer Storm Rough', sans-serif;}
+
+div {
+    display: inline-block;
+    vertical-align:top;
+    font-family: 'Alcefun', sans-serif;                                            
+    color: var(--text);
+    font-size: 25px;
+    margin: 7px;
+}
+
+.Ldiv {width: 38%;}
+
+.Rdiv {width: 50%;}
+
+p {margin: 0;}
+
+img  {
+    width: 100%;
+    border-radius: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 5px dotted var(--dark);
+  }
+
+span {width: 100px; padding: 5px; display: inline-block;}
+.info {
+    margin-bottom: 20px;
+}
+
+@media print {
+    
+    body { background: linear-gradient(180deg, var(--light) 0%, var(--dark) 100%); background-repeat: no-repeat; background-attachment: fixed; background-size: 1000px 1200px; padding: 10px; font-size: larger;}
+    
+    main {background-color: var(--bg); width: 100%; height: 1086px; padding: 10px;}
+
+    header{
+      background-color: var(--dark);
+      color: white;
+      text-align: center;
+      clip-path: polygon(100% 0%, 720px 50%, 100% 100%, 0% 100%, 19px 50%, 0% 0%);
+    }
+
+    .Ldiv {width: 300px;}
+    .Rdiv {width: 400px;}
+  }
